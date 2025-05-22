@@ -82,7 +82,7 @@ const CommunitySection: React.FC = () => {
                   
                   {/* Map overlay at bottom */}
                   <div className="h-16 bg-map-light flex items-center justify-center relative">
-                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><rect width=\"10\" height=\"10\" fill=\"none\" stroke=\"%23FFFFFF\" stroke-width=\"0.5\" stroke-dasharray=\"1,1\" /></svg>')] bg-repeat"></div>
+                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%3E%3Crect%20width%3D%2210%22%20height%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%220.5%22%20stroke-dasharray%3D%221%2C1%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                     <div className="absolute inset-0 flex items-center justify-around">
                       {[...Array(5)].map((_, i) => (
                         <div key={i} className="h-3 w-3 rounded-full bg-green-500 animate-pulse-gentle"></div>

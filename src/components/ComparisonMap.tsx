@@ -70,7 +70,7 @@ const ComparisonMap: React.FC = () => {
             >
               {/* Before image (full width) */}
               <div className="absolute inset-0 bg-heat-light/30">
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><rect width=\"20\" height=\"20\" fill=\"%23FF9A76\" fill-opacity=\"0.2\"/></svg>')] bg-repeat"></div>
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Crect%20width%3D%2220%22%20height%3D%2220%22%20fill%3D%22%23FF9A76%22%20fill-opacity%3D%220.2%22%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-4/5 h-4/5 bg-heat-dark/30 rounded-md p-6 text-white">
                     <div className="border-b-2 border-white/20 pb-2 mb-4">Kibera / Pipeline Area</div>
@@ -106,7 +106,7 @@ const ComparisonMap: React.FC = () => {
                 className="absolute inset-0 bg-green-light/30"
                 style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
               >
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><rect width=\"20\" height=\"20\" fill=\"%234CAF50\" fill-opacity=\"0.2\"/></svg>')] bg-repeat"></div>
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Crect%20width%3D%2220%22%20height%3D%2220%22%20fill%3D%22%234CAF50%22%20fill-opacity%3D%220.2%22%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-4/5 h-4/5 bg-green-dark/30 rounded-md p-6 text-white">
                     <div className="border-b-2 border-white/20 pb-2 mb-4">Kibera / Pipeline Area (Transformed)</div>
@@ -189,7 +189,7 @@ const ComparisonMap: React.FC = () => {
             >
               {/* Before - Temperature overlay (hot) */}
               <div className="absolute inset-0 bg-gradient-to-br from-yellow-500 to-red-600">
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\" viewBox=\"0 0 4 4\"><rect width=\"1\" height=\"1\" fill=\"%23FF0000\" fill-opacity=\"0.3\"/></svg>')] bg-repeat"></div>
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%224%22%20height%3D%224%22%20viewBox%3D%220%200%204%204%22%3E%3Crect%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%23FF0000%22%20fill-opacity%3D%220.3%22%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                 {/* Temperature data points */}
                 <div className="absolute top-1/4 left-1/4 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">38°C</div>
                 <div className="absolute top-2/3 left-1/3 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">39°C</div>
@@ -202,7 +202,7 @@ const ComparisonMap: React.FC = () => {
                 className="absolute inset-0 bg-gradient-to-br from-green-300 to-blue-400"
                 style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
               >
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"4\" height=\"4\" viewBox=\"0 0 4 4\"><rect width=\"1\" height=\"1\" fill=\"%230000FF\" fill-opacity=\"0.1\"/></svg>')] bg-repeat"></div>
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%224%22%20height%3D%224%22%20viewBox%3D%220%200%204%204%22%3E%3Crect%20width%3D%221%22%20height%3D%221%22%20fill%3D%22%230000FF%22%20fill-opacity%3D%220.1%22%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                 {/* Temperature data points */}
                 <div className="absolute top-1/4 left-1/4 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">29°C</div>
                 <div className="absolute top-2/3 left-1/3 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">31°C</div>
@@ -237,7 +237,7 @@ const ComparisonMap: React.FC = () => {
             >
               {/* Before - Low NDVI (less vegetation) */}
               <div className="absolute inset-0 bg-gradient-to-br from-yellow-700 to-orange-800">
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><rect width=\"10\" height=\"10\" fill=\"none\" stroke=\"%23FFFFFF\" stroke-width=\"0.5\" /></svg>')] bg-repeat"></div>
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%3E%3Crect%20width%3D%2210%22%20height%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%220.5%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                 {/* NDVI data points */}
                 <div className="absolute top-1/4 left-1/4 bg-black/40 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">0.12</div>
                 <div className="absolute top-2/3 left-1/3 bg-black/40 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">0.08</div>
@@ -250,7 +250,7 @@ const ComparisonMap: React.FC = () => {
                 className="absolute inset-0 bg-gradient-to-br from-green-500 to-emerald-700"
                 style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
               >
-                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"10\" height=\"10\" viewBox=\"0 0 10 10\"><rect width=\"10\" height=\"10\" fill=\"none\" stroke=\"%23FFFFFF\" stroke-width=\"0.5\" /></svg>')] bg-repeat"></div>
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2210%22%20height%3D%2210%22%20viewBox%3D%220%200%2010%2010%22%3E%3Crect%20width%3D%2210%22%20height%3D%2210%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%220.5%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat"></div>
                 {/* NDVI data points */}
                 <div className="absolute top-1/4 left-1/4 bg-black/40 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">0.45</div>
                 <div className="absolute top-2/3 left-1/3 bg-black/40 backdrop-blur-sm rounded-full px-2 py-1 text-xs text-white">0.52</div>
@@ -289,7 +289,7 @@ const ComparisonMap: React.FC = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-4/5 h-4/5 relative">
                     {/* Simulating satellite imagery patterns */}
-                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"50\" height=\"50\" fill=\"%23555555\" /><rect x=\"50\" y=\"0\" width=\"50\" height=\"50\" fill=\"%23444444\" /><rect x=\"0\" y=\"50\" width=\"50\" height=\"50\" fill=\"%23444444\" /><rect x=\"50\" y=\"50\" width=\"50\" height=\"50\" fill=\"%23555555\" /></svg>')] bg-repeat bg-[length:20px_20px]"></div>
+                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23555555%22%20%2F%3E%3Crect%20x%3D%2250%22%20y%3D%220%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23444444%22%20%2F%3E%3Crect%20x%3D%220%22%20y%3D%2250%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23444444%22%20%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2250%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23555555%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat bg-[length:20px_20px]"></div>
                     
                     {/* Adding rare green spots */}
                     <div className="absolute top-[10%] left-[20%] w-4 h-4 rounded-full bg-green-700/70"></div>
@@ -314,7 +314,7 @@ const ComparisonMap: React.FC = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-4/5 h-4/5 relative">
                     {/* Simulating satellite imagery patterns */}
-                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"50\" height=\"50\" fill=\"%23555555\" /><rect x=\"50\" y=\"0\" width=\"50\" height=\"50\" fill=\"%23444444\" /><rect x=\"0\" y=\"50\" width=\"50\" height=\"50\" fill=\"%23444444\" /><rect x=\"50\" y=\"50\" width=\"50\" height=\"50\" fill=\"%23555555\" /></svg>')] bg-repeat bg-[length:20px_20px]"></div>
+                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23555555%22%20%2F%3E%3Crect%20x%3D%2250%22%20y%3D%220%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23444444%22%20%2F%3E%3Crect%20x%3D%220%22%20y%3D%2250%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23444444%22%20%2F%3E%3Crect%20x%3D%2250%22%20y%3D%2250%22%20width%3D%2250%22%20height%3D%2250%22%20fill%3D%22%23555555%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat bg-[length:20px_20px]"></div>
                     
                     {/* Adding many green spots */}
                     <div className="absolute top-[10%] left-[20%] w-8 h-8 rounded-full bg-green-600/80"></div>

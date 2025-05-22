@@ -8,8 +8,8 @@ const GetInvolved: React.FC = () => {
     <section className="py-16 bg-green-50 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 right-0 h-20 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"%234CAF50\" /></svg>')] bg-repeat-x"></div>
-        <div className="absolute bottom-0 left-0 right-0 h-20 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\"><circle cx=\"10\" cy=\"10\" r=\"8\" fill=\"%234CAF50\" /></svg>')] bg-repeat-x"></div>
+        <div className="absolute top-0 left-0 right-0 h-20 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%228%22%20fill%3D%22%234CAF50%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat-x"></div>
+        <div className="absolute bottom-0 left-0 right-0 h-20 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2220%22%20height%3D%2220%22%20viewBox%3D%220%200%2020%2020%22%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%228%22%20fill%3D%22%234CAF50%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat-x"></div>
       </div>
       
       <div className="container mx-auto px-4 relative">

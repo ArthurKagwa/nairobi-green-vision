@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     <section className="relative h-[90vh] flex items-center overflow-hidden">
       {/* Background gradient layers */}
       <div className="absolute inset-0 bg-gradient-to-r from-heat-dark/70 to-heat-light/70"></div>
-      <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\"><rect width=\"100\" height=\"100\" fill=\"none\" stroke=\"%23FFFFFF\" stroke-width=\"0.5\" stroke-dasharray=\"5,5\" /></svg>')] bg-repeat opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%22100%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20fill%3D%22none%22%20stroke%3D%22%23FFFFFF%22%20stroke-width%3D%220.5%22%20stroke-dasharray%3D%225%2C5%22%20%2F%3E%3C%2Fsvg%3E')] bg-repeat opacity-10"></div>
       
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">

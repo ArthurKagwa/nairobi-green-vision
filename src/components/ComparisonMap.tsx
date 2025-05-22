@@ -1,7 +1,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Layers, Thermometer, Tree, Satellite } from 'lucide-react';
+import { Layers, Thermometer, Trees, Satellite } from 'lucide-react';
 
 const ComparisonMap: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -52,7 +52,7 @@ const ComparisonMap: React.FC = () => {
                 <span>Temperature</span>
               </TabsTrigger>
               <TabsTrigger value="ndvi" className="flex items-center gap-2">
-                <Tree className="h-4 w-4" />
+                <Trees className="h-4 w-4" />
                 <span>Vegetation (NDVI)</span>
               </TabsTrigger>
               <TabsTrigger value="satellite" className="flex items-center gap-2">

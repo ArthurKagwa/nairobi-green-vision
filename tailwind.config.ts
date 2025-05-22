@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for GreenMap
+				heat: {
+					light: '#FF9A76',
+					DEFAULT: '#F67280',
+					dark: '#C06C84',
+				},
+				green: {
+					light: '#9EDDAF',
+					DEFAULT: '#4CAF50',
+					dark: '#2E7D32',
+				},
+				earth: {
+					light: '#D7CCC8',
+					DEFAULT: '#9E897A',
+					dark: '#6D4C41',
+				},
+				map: {
+					light: '#64B5F6',
+					DEFAULT: '#1E88E5',
+					dark: '#0D47A1',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +106,62 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'grow': {
+					'0%': {
+						transform: 'scale(0.8) translateY(10px)',
+						opacity: '0.5'
+					},
+					'100%': {
+						transform: 'scale(1) translateY(0)',
+						opacity: '1'
+					}
+				},
+				'pulse-gentle': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0.8'
+					}
+				},
+				'ping-slow': {
+					'75%, 100%': {
+						transform: 'scale(1.5)',
+						opacity: '0'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.8s ease-out',
+				'grow': 'grow 2s ease-out',
+				'pulse-gentle': 'pulse-gentle 3s infinite',
+				'ping-slow': 'ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite',
+				'float': 'float 6s ease-in-out infinite'
+			},
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'roboto': ['Roboto', 'sans-serif']
 			}
 		}
 	},

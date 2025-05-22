@@ -1,7 +1,7 @@
-
 import React, { useEffect, useRef, useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Layers, Thermometer, Trees, Satellite } from 'lucide-react';
+import { Layers, Thermometer, Trees, Satellite, Map } from 'lucide-react';
+import MapView from './MapView';
 
 const ComparisonMap: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -58,6 +58,10 @@ const ComparisonMap: React.FC = () => {
               <TabsTrigger value="satellite" className="flex items-center gap-2">
                 <Satellite className="h-4 w-4" />
                 <span>Satellite</span>
+              </TabsTrigger>
+              <TabsTrigger value="map" className="flex items-center gap-2">
+                <Map className="h-4 w-4" />
+                <span>Real Map</span>
               </TabsTrigger>
             </TabsList>
           </div>
@@ -366,6 +370,14 @@ const ComparisonMap: React.FC = () => {
                 Satellite Imagery with Enhanced Vegetation Index
               </div>
             </div>
+          </TabsContent>
+          
+          <TabsContent value="map">
+            <MapView 
+              position={position}
+              beforeLayer="streets-v12"
+              afterLayer="satellite-v9"
+            />
           </TabsContent>
           
           <div className="mt-6 text-center text-gray-600 text-sm">
